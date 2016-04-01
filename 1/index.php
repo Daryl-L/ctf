@@ -30,7 +30,7 @@
 </head>
 <body>
     <ol>
-        <li><span class="keyword">if</span> (<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">'a'</span>]) && <span class="keyword">isset</span>(<span class="string">$_GET</span>[<span class="string">'b'</span>])) {</li>
+        <li><span class="keyword">if</span> (<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">'a'</span>]) && <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">'b'</span>])) {</li>
         <li>&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span> (<span class="variable">$_GET</span>[<span class="string">'a'</span>] != <span class="variable">$_GET</span>[<span class="string">'b'</span>]) {</li>
         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span> (<span class="keyword">md5</span>(<span class="variable">$_GET</span>[<span class="string">'a'</span>]) === <span class="keyword">md5</span>(<span class="variable">$_GET</span>[<span class="string">'b'</span>])) {</li>
         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">echo</span> <span class="variable">$flag;</span></li>
